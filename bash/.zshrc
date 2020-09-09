@@ -60,17 +60,20 @@ ZSH_THEME_RANDOM_CANDIDATES=(
 	  )
  
 # Git shortcuts
- alias gs="git status"
- alias gl="git log"
- alias gc="git commit -m"
- alias gpom="git pull origin master"
- alias gpomr!="git pull origin master --rebase"
- alias gp="git push"
- alias gpf!="git push -f"
- alias gca="git commit --amend" 
-# alias gbl="git for-each-ref --sort=committerdate refs/heads/ --format='%(color: red)%(committerdate:short) %(color: cyan)%(refname:short)'"
+alias gs="git status"
+alias gl="git log"
+alias gc="git commit -m"
+alias gca="git commit --ammend"
+alias gpllom="git pull origin master"
+alias gpllomr!="git pull origin master --rebase"
+alias gpsh="git push"
+alias gpshf!="git push -f"
+alias gstsh="git stash"
+alias gstshl="git stash list"
+alias gstshp!="git stash pop"
+# alias gbl="git for-each-ref --sort=committerdate refs/heads/ --format='%(color: red)%(committerdate:short) %(color: cyan)%(refname:sh  ort)'"
 
- source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
